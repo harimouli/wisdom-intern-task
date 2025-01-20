@@ -1,0 +1,112 @@
+.user-card-link {
+    text-decoration: none;
+}
+.profile-icon-for-user-card {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.user-card {
+    width: 95%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #FF8C00;
+    transition: transform 0.3s ease; 
+}
+.user-card:hover {
+    transform: scale(1.05); 
+}
+.light-user-card {
+    background-color: #282c34; 
+}
+.dark-user-card {
+    background-color: white;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    font-size: 10px;  
+  }
+.email-dark {
+    color: white;
+}
+  
+.name {
+    font-size: 11px;
+    font-weight: bold;
+}
+.name-dark {
+    color: white;
+}
+.icon {
+    margin-right: 5px;
+
+}
+@media (min-width: 768px) {
+    .user-card {
+        width: 185px;
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-icon-for-user-card {
+        width: 30px;
+        height: 30px;
+    }
+    .email {
+        font-size: 14px;
+    }
+    .name {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:940px ){
+    .user-card {
+        width: 215px;
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-icon-for-user-card{
+        width: 120px;
+        height: 120px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .email {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1100px){
+    .user-card {
+        width: 270px;
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-icon-for-user-card {
+        width: 130px;
+        height: 130px;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .email {
+        font-size: 18px;
+    }
+}

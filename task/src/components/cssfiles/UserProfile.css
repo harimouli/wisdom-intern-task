@@ -1,0 +1,87 @@
+.user-profile-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.back-button {
+    background-color: transparent;
+    border: none;
+    align-self: flex-start;
+}
+.back-link {
+    text-decoration: none;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: color 0.3s , transform 0.3s ease-in-out;
+}
+
+.back-link:hover {
+    transform: scale(1.1);  
+}
+
+.profile-info-container {
+    display: flex;
+    flex-direction: column;
+}
+.address-card {
+  
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.dark-mode {
+    color: #282c34;
+}
+.light-mode {
+    color: white;
+}
+.user-profile-heading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.item-card {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 550;
+    padding: 2px;
+}
+
+.icon {
+    margin-right: 5px;
+}
+.username {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.address-heading {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.address-info {
+   display: flex;
+   align-self: center;
+
+}
+.user-detail {
+    align-self: center;
+}
+.user-detail-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile-icon {
+    width:200px;
+    height:200px;
+}
